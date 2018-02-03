@@ -3,7 +3,8 @@
 const path = require("path");
 const fs = require("fs-extra");
 const { SFTP_OPEN_MODE } = require("ssh2");
-const { FileSystemInterface, PermissionDeniedError } = require("../index");
+const FileSystemInterface = require("../lib/FileSystemInterface");
+const PermissionDeniedError = require("../lib/errors").PermissionDeniedError;
 
 const isset = (value) => typeof value !== "undefined";
 

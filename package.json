@@ -1,9 +1,16 @@
 {
-  "name": "sftp-fs",
-  "version": "0.0.4",
+  "name": "sftp-fs-kt",
+  "version": "1.0.0",
   "description": "Make it simple to implement a SFTP server by implementing a FS interface class",
   "main": "index.js",
   "author": "Mattias Runge-Broberg <mattias@runge.se>",
+  "contributors": [
+    {
+      "name": "Igor Savin",
+      "email": "kibertoad@gmail.com",
+      "url": "https://github.com/kibertoad"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mattiasrunge/sftp-fs.git"
